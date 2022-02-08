@@ -69,28 +69,28 @@ include CMakeFiles/ray_tracer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ray_tracer.dir/flags.make
 
-CMakeFiles/ray_tracer.dir/main.cpp.o: CMakeFiles/ray_tracer.dir/flags.make
-CMakeFiles/ray_tracer.dir/main.cpp.o: main.cpp
-CMakeFiles/ray_tracer.dir/main.cpp.o: CMakeFiles/ray_tracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vyphan/project/cpp/ray-tracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_tracer.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_tracer.dir/main.cpp.o -MF CMakeFiles/ray_tracer.dir/main.cpp.o.d -o CMakeFiles/ray_tracer.dir/main.cpp.o -c /Users/vyphan/project/cpp/ray-tracer/main.cpp
+CMakeFiles/ray_tracer.dir/src/main.cpp.o: CMakeFiles/ray_tracer.dir/flags.make
+CMakeFiles/ray_tracer.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/ray_tracer.dir/src/main.cpp.o: CMakeFiles/ray_tracer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vyphan/project/cpp/ray-tracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_tracer.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_tracer.dir/src/main.cpp.o -MF CMakeFiles/ray_tracer.dir/src/main.cpp.o.d -o CMakeFiles/ray_tracer.dir/src/main.cpp.o -c /Users/vyphan/project/cpp/ray-tracer/src/main.cpp
 
-CMakeFiles/ray_tracer.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray_tracer.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vyphan/project/cpp/ray-tracer/main.cpp > CMakeFiles/ray_tracer.dir/main.cpp.i
+CMakeFiles/ray_tracer.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray_tracer.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vyphan/project/cpp/ray-tracer/src/main.cpp > CMakeFiles/ray_tracer.dir/src/main.cpp.i
 
-CMakeFiles/ray_tracer.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray_tracer.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vyphan/project/cpp/ray-tracer/main.cpp -o CMakeFiles/ray_tracer.dir/main.cpp.s
+CMakeFiles/ray_tracer.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray_tracer.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vyphan/project/cpp/ray-tracer/src/main.cpp -o CMakeFiles/ray_tracer.dir/src/main.cpp.s
 
 # Object files for target ray_tracer
 ray_tracer_OBJECTS = \
-"CMakeFiles/ray_tracer.dir/main.cpp.o"
+"CMakeFiles/ray_tracer.dir/src/main.cpp.o"
 
 # External object files for target ray_tracer
 ray_tracer_EXTERNAL_OBJECTS =
 
-ray_tracer: CMakeFiles/ray_tracer.dir/main.cpp.o
+ray_tracer: CMakeFiles/ray_tracer.dir/src/main.cpp.o
 ray_tracer: CMakeFiles/ray_tracer.dir/build.make
 ray_tracer: CMakeFiles/ray_tracer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vyphan/project/cpp/ray-tracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ray_tracer"
