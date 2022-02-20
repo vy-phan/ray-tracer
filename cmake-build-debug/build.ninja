@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_ray_tracer: phony || CMakeFiles/ray_tracer.dir
 
-build CMakeFiles/ray_tracer.dir/main.cpp.o: CXX_COMPILER__ray_tracer_Debug /Users/vyphan/project/cpp/ray-tracer/main.cpp || cmake_object_order_depends_target_ray_tracer
-  DEP_FILE = CMakeFiles/ray_tracer.dir/main.cpp.o.d
+build CMakeFiles/ray_tracer.dir/src/main.cpp.o: CXX_COMPILER__ray_tracer_Debug /Users/vyphan/project/cpp/ray-tracer/src/main.cpp || cmake_object_order_depends_target_ray_tracer
+  DEP_FILE = CMakeFiles/ray_tracer.dir/src/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/ray_tracer.dir
-  OBJECT_FILE_DIR = CMakeFiles/ray_tracer.dir
+  OBJECT_FILE_DIR = CMakeFiles/ray_tracer.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/ray_tracer.dir/
   TARGET_PDB = ray_tracer.pdb
 
@@ -88,7 +88,7 @@ build CMakeFiles/ray_tracer.dir/main.cpp.o: CXX_COMPILER__ray_tracer_Debug /User
 #############################################
 # Link the executable ray_tracer
 
-build ray_tracer: CXX_EXECUTABLE_LINKER__ray_tracer_Debug CMakeFiles/ray_tracer.dir/main.cpp.o
+build ray_tracer: CXX_EXECUTABLE_LINKER__ray_tracer_Debug CMakeFiles/ray_tracer.dir/src/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/ray_tracer.dir
   POST_BUILD = :
