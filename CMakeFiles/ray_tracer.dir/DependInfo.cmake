@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/vyphan/project/cpp/ray-tracer/src/main.cpp" "CMakeFiles/ray_tracer.dir/src/main.cpp.o" "gcc" "CMakeFiles/ray_tracer.dir/src/main.cpp.o.d"
+  "/Users/vyphan/project/cpp/ray-tracer/build/main.cpp" "CMakeFiles/ray_tracer.dir/build/main.cpp.o" "gcc" "CMakeFiles/ray_tracer.dir/build/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -129,29 +129,29 @@ ray_tracer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/build
 .PHONY : ray_tracer/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+build/main.o: build/main.cpp.o
+.PHONY : build/main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+build/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/build/main.cpp.o
+.PHONY : build/main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+build/main.i: build/main.cpp.i
+.PHONY : build/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+build/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/build/main.cpp.i
+.PHONY : build/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+build/main.s: build/main.cpp.s
+.PHONY : build/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+build/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracer.dir/build.make CMakeFiles/ray_tracer.dir/build/main.cpp.s
+.PHONY : build/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ray_tracer"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... build/main.o"
+	@echo "... build/main.i"
+	@echo "... build/main.s"
 .PHONY : help
 
 

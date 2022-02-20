@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ray_tracer.dir/src/main.cpp.o"
-  "CMakeFiles/ray_tracer.dir/src/main.cpp.o.d"
+  "CMakeFiles/ray_tracer.dir/build/main.cpp.o"
+  "CMakeFiles/ray_tracer.dir/build/main.cpp.o.d"
   "ray_tracer"
   "ray_tracer.pdb"
 )

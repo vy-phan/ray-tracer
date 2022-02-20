@@ -12,22 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d1785f-841d-4547-bdb2-4e8d56b24654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/color.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build/main.cpp.o.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c51c4c846d623c90e3e7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-08T01-39-05-0331.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ray_tracer-Debug-d6c16c30f5db1fa6cd96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/vec3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/color.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/vec3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ray_tracer" beforeDir="false" afterPath="$PROJECT_DIR$/ray_tracer" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="structure.view.defaults.are.configured" value="true" />
   </component>
@@ -96,7 +101,7 @@
       <workItem from="1644371584339" duration="198000" />
       <workItem from="1645329450844" duration="2483000" />
       <workItem from="1645331966239" duration="1175000" />
-      <workItem from="1645333148682" duration="625000" />
+      <workItem from="1645333148682" duration="1408000" />
     </task>
     <servers />
   </component>
