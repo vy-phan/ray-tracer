@@ -12,16 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d1785f-841d-4547-bdb2-4e8d56b24654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/ray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image2.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build/main.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/build/main.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/ray_tracer.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ray_tracer" beforeDir="false" afterPath="$PROJECT_DIR$/ray_tracer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/vec3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <workItem from="1645329450844" duration="2483000" />
       <workItem from="1645331966239" duration="1175000" />
       <workItem from="1645333148682" duration="1862000" />
-      <workItem from="1645388527516" duration="7073000" />
+      <workItem from="1645388527516" duration="8030000" />
     </task>
     <servers />
   </component>
