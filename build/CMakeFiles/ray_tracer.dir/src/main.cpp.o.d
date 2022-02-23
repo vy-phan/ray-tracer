@@ -1,6 +1,6 @@
 CMakeFiles/ray_tracer.dir/src/main.cpp.o: \
   /Users/vyphan/project/cpp/ray-tracer/src/main.cpp \
-  /Users/vyphan/project/cpp/ray-tracer/src/constants.h \
+  /Users/vyphan/project/cpp/ray-tracer/src/utilities.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -236,6 +236,7 @@ CMakeFiles/ray_tracer.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Users/vyphan/project/cpp/ray-tracer/src/camera.h \
   /Users/vyphan/project/cpp/ray-tracer/src/color.h \
   /Users/vyphan/project/cpp/ray-tracer/src/shape_list.h \
   /Users/vyphan/project/cpp/ray-tracer/src/shape.h \
