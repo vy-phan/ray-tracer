@@ -3,4 +3,8 @@ project(ray_tracer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ray_tracer src/main.cpp src/vec3.h src/color.h)
+add_executable(ray_tracer src/main.cpp)
+
+target_include_directories(ray_tracer PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
+
